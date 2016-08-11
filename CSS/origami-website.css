@@ -1,0 +1,170 @@
+header, section, footer, nav, article, figure, figcaption, aside{
+	display: block;
+}
+
+body {
+	color: #AA92DE;
+	background-image: url('../pattern.gif');
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+#page {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 10px double Plum;
+	background-color: MintCream;
+	border-radius: 15px;
+}
+			
+header {
+	height: 160px;
+}
+			
+h1 {
+	color: DeepSkyBlue;
+	text-align: center;
+	margin-top: 30px;
+	width: 940px;
+	height: 60px;
+	font-family: "Monotype Corsiva", "Courier New", Arial;
+	font-size: 300%;
+
+}
+			
+nav, footer {
+	clear: both;
+	color: #E45EFF;
+	background-color: #CDECFA;
+	height: 30px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+	text-align: center;
+}
+			
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+			
+nav li a {
+	color: #D092DE;
+}
+			
+nav li a:hover {
+	color: PaleVioletRed;
+
+}
+
+section.content {
+	float: left;
+	width: 659px;
+	border-right: 1px solid Aquamarine;
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+			
+hgroup {
+	margin-top: 40px;
+}
+			
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 4px outset Aquamarine;
+}
+
+figcaption {
+	font-size: 90%;
+	text-align: left;
+}
+
+aside {
+	width: 230px;
+	float: right;
+	padding: 0px 0px 0px 20px;
+	vertical-align: top;
+}
+			
+aside section a {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid Aquamarine;
+}
+
+aside section a:hover {
+	color: MistyRose;
+	background-color: #92A0DE;
+}
+			
+a {
+	color: Violet;
+	text-decoration: none;
+}
+			
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	font-family: Georgia, Arial;
+}
+			
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #de6581;
+	font-family: Georgia, Arial;
+}
+			
+aside h2 {
+	padding: 30px 0px 10px 0px;
+	color: #de6581;
+}
+
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
+}
+
+img{
+	width: 280px;
+	height: 180px;
+	margin: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+header h2{
+
+	text-align: center;
+	height: 35px;
+}
+
+a.current {
+	color: DodgerBlue;
+}
+
+nav li a.current:hover {
+	color: DodgerBlue;
+}
+
+p {
+	padding: 2px;
+}
+
